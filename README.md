@@ -24,7 +24,7 @@ To construction of the evolution operator, let $\mathcal{G}$ be $m$-regular grap
 
 $\mathcal{A} = \sum\limits_{i=0}^{m-1} \mathcal{P}_i$.
 
-We call each permutation matrix a $shunt$. Next, we associate each shunt with a coin basis state, and define the shift operator of the system as expressed in eq. (\ref{shift_per_diag}). 
+We call each permutation matrix a $shunt$. Next, we associate each shunt with a coin basis state, and define the shift operator of the system as 
 
 $S= \sum\limits_{i=0}^{m-1} |c_i\rangle \langle c_i| \otimes \mathcal{P}_i$,
 

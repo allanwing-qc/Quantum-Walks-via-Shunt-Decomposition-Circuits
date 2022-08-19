@@ -1,6 +1,6 @@
 # Quantum-Walks-via-Shunt-Decomposition-Circuits
 
-A coined quantum walk (CQW) considers a walker that moves between the vertices of a graph $\mathcal{G}(V,E)$ with adjacency matrix $\mathcal{A}$, where $V$ and $E$ are the vertex and edge sets, respectively. A CQW is defined by three elements: the quantum state of a walker, the evolution operator of the system and a set of measurement operators. The state of walker at time $t$ is represented by a composite quantum state 
+A discrete-time coined quantum walk (DTCQW) considers a walker that moves between the vertices of a graph $\mathcal{G}(V,E)$ with adjacency matrix $\mathcal{A}$, where $V$ and $E$ are the vertex and edge sets, respectively. A CQW is defined by three elements: the quantum state of a walker, the evolution operator of the system and a set of measurement operators. The state of walker at time $t$ is represented by a composite quantum state 
 
 $|\psi(t) \rangle = \sum\limits_{i,j} a_{ij}|c_i \rangle \otimes |v_j\rangle$,
 
@@ -22,7 +22,7 @@ Different methods to construct evolution operators to perform walks on different
 
 To construction of the evolution operator, let $\mathcal{G}$ be $m'$-regular graph, with adjacency matrix $\mathcal{A}(\mathcal{G})$. Suppose $\mathcal{A}$ can be decomposed as the sum of $m'$ permutation matrices, $\mathcal{P}_i \in \mathbb{R}^{n' \times n'}$, i.e.
 
-$\mathcal{A} = \mathcal{P}_0 + \mathcal{P}_1 + \dots + \mathcal{P}_{m'-1}$
+$\mathcal{A} = \mathcal{P}_0 + \mathcal{P}_1 + \dots + \mathcal{P}_m_'_-_1$
 
 We call each permutation matrix a $shunt$. Next, we associate each shunt with a coin basis state, and define the shift operator of the system as expressed in eq. (\ref{shift_per_diag}). 
 

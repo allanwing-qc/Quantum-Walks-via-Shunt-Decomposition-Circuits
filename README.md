@@ -38,26 +38,19 @@ Now consider $f_V: \mathbb{Z} \rightarrow B$, where $B$ is the set of all bitstr
 
 In order to map the basis states of $H_c$ and $H_p$ into a composite state of qubits, we must map $v_j$ and $c_k$ into bitstring notation. Thus, we define the function $f_V: \mathbb{Z} \rightarrow B$, where $B$ is the set of all bitstrings, and consider the basis states of a qubit to be given by
 
-$|0\rangle = [1]
-             [0]$
-
-$|1\rangle =$
+$|0\rangle = <1,0>$, $|1\rangle = <0,1>$
 
 In this way, we are able to do the following map
 
-$|f_V(v_i) \rangle = |q_0q_1\dots q_n\rangle = |q_0 \rangle \otimes |q_1 \rangle \otimes \dots \otimes |q_n\rangle$
+$|f_V(v_i) \rangle = |q_0q_1\dots q_n\rangle = |q_0 \rangle \otimes |q_1 \rangle \otimes \dots \otimes |q_n\rangle$,
 
-\noindent
 where $q_i \in \{0,1\}$.
-
 
 This means that every basis vector $|v_i\rangle$ can be rewritten as a composite state given by the tensor product of $n$ qubits. The same mapping is done for the coin space, allowing us to express the state vector of a quantum walker, $|\psi \rangle = |c_i\rangle \otimes |v_i \rangle$, in bitstring notation. 
 
 This mapping can be represented in an $n+m$-qubit quantum circuit, where the first $n$ qubits form a register $|q_0 q_1 \dots q_{n-1} \rangle$ that correspond to the position states, and the last $m$ qubits form a register $|q_{n} q_{n+1} \dots q_{n+m-1} \rangle$ that correspond to the coin states.
 
-%Little introduction to quantum circuits: Explain how to construct a quantum circuit and what are the parallel lines in a quantum circuit
-
-To completely map a quantum walk into a quantum circuit, we need to express the evolution operator, $U=S(C \otimes I_P)$, as a set of quantum gates. A general method can be followed for graphs whose adjacency matrices can be decomposed in $2^m$ permutation matrices $\mathcal{P}_i$ of size $2^n$, as in eq. (\ref{additive_decomposition_eq}), which will be used as block diagonal elements of $S$.
+To completely map a quantum walk into a quantum circuit, we need to express the evolution operator, $U=S(C \otimes I_P)$, as a set of quantum gates. A general method can be followed for graphs whose adjacency matrices can be decomposed in $2^m$ permutation matrices $\mathcal{P}_i$ of size $2^n$, which will be used as block diagonal elements of $S$.
 
 
 

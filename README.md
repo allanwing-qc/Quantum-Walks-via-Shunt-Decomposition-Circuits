@@ -31,12 +31,6 @@ $S= \sum\limits_{i=0}^{m-1} |c_i\rangle \langle c_i| \otimes \mathcal{P}_i$,
 Because $S$ is a block diagonal matrix with unitary matrices as entries, $S$ is unitary too, and contains the same information of the connections between nodes than the original adjacency matrix.
 
 
-Let $\mathcal{G}(V,E)$ be a graph with connected components of order $n'=2^n$, whose adjacency matrix can be decomposed into the sum of $m'=2^m$ permutation matrices and whose vertices and edges are both labeled by integers. Associated to the vertices of the graph $\mathcal{G}$, there exists a set of $2^n$ basis vectors $\{|v_j \rangle: v_j \in \mathbb{Z}\}$ that span $H_P$, and associated to the edges connected to vertex $v_i$ a set of $2^m$ basis vectors $\{|c_i \rangle: c_i \in \mathbb{Z}\}$ that span $H_C$.
-
-Now consider $f_V: \mathbb{Z} \rightarrow B$, where $B$ is the set of all bitstrings. In order to map the basis states of the Hilbert spaces $H_c$ and $H_p$ into a bitstring, we must consider the basis states of a qubit:
-
-
-
 
 
 

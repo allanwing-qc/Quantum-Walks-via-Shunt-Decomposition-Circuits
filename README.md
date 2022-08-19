@@ -22,13 +22,11 @@ Different methods to construct evolution operators to perform walks on different
 
 To construction of the evolution operator, let $\mathcal{G}$ be $m$-regular graph, with adjacency matrix $\mathcal{A}(\mathcal{G})$. Suppose $\mathcal{A}$ can be decomposed as the sum of $m$ permutation matrices, $\mathcal{P}_i \in \mathbb{R}^{n \times n}$, i.e.
 
-$\mathcal{A} = \mathcal{P}_0 + \mathcal{P}_1 + ... + \mathcal{P}_{m-1}$
+$\mathcal{A} = \mathcal{P}_0 + \mathcal{P}_1 + \dots + \mathcal{P}_{m-1}$.
 
 We call each permutation matrix a $shunt$. Next, we associate each shunt with a coin basis state, and define the shift operator of the system as expressed in eq. (\ref{shift_per_diag}). 
 
-$S= \sum\limits_{i=0}^{m-1} |c_i\rangle \langle c_i| \otimes \mathcal{P}_i,$
-or explicitly,
-
+$S= \sum\limits_{i=0}^{m-1} |c_i\rangle \langle c_i| \otimes \mathcal{P}_i$,
 
 Because $S$ is a block diagonal matrix with unitary matrices as entries, $S$ is unitary too, and contains the same information of the connections between nodes than the original adjacency matrix.  
 

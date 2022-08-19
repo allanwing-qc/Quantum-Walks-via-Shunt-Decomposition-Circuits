@@ -38,7 +38,8 @@ Now consider $f_V: \mathbb{Z} \rightarrow B$, where $B$ is the set of all bitstr
 
 In order to map the basis states of $H_c$ and $H_p$ into a composite state of qubits, we must map $v_j$ and $c_k$ into bitstring notation. Thus, we define the function $f_V: \mathbb{Z} \rightarrow B$, where $B$ is the set of all bitstrings, and consider the basis states of a qubit to be given by
 
-$|0\rangle =$
+$|0\rangle = [1]
+             [0]$
 
 $|1\rangle =$
 

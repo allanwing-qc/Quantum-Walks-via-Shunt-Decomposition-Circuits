@@ -4,7 +4,7 @@ A discrete-time coined quantum walk (DTCQW) considers a walker that moves betwee
 
 $|\psi(t) \rangle = \sum\limits_{i,j} a_{ij}|c_i \rangle \otimes |v_j\rangle$,
 
-where $|v_j\rangle \in \mathcal{H}_P$ is a quantum state associated to vertex $v_j$, and $|c_k\rangle \in \mathcal{H}_C$ is a quantum state associated to a set of edges $\{v_j,v_i\} \in E$. For simplicity consider states $|v_j\rangle$ and $|c_k\rangle$ be associated to canonical vectors.$\mathcal{H}_P$ and $\mathcal{H}_C$ are Hilbert spaces of size $n$ and $m$, and are called position and coin spaces, respectively. The evolution operator $U$ is conformed by the product of the shift and coin operators, i.e.
+where $|v_j\rangle \in \mathcal{H}_P$ is a state associated to vertex $v_j \in \mathbb{Z}$, and $|c_k\rangle \in \mathcal{H}_C$, with $c_k \in \mathbb{Z}$, is a state associated to a set of edges $\{v_j,v_i\} \in E$. For simplicity consider $|v_j\rangle$ and $|c_k\rangle$ be associated to canonical vectors. $\mathcal{H}_P$ and $\mathcal{H}_C$ are Hilbert spaces of size $n'$ and $m'$, and are called position and coin spaces, respectively. The evolution operator $U$ is conformed by the product of the shift and coin operators, i.e.
 
 $U=S(C\otimes I_{n})$.
 

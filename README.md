@@ -69,7 +69,7 @@ This way, we can find $2^m$ block diagonal gates $C^m_j(\mathcal{P}{i(j)})$ in w
 
 $S = \prod\limits_{j=0}^{2^m-1} C_j^m(\mathcal{P}{i(j)})$,
 
-a block diagonal operator whose elements are the additive decomposition of the adjacency matrix associated to graph $\mathcal{G}$, i.e. we obtain eq. (\ref{block_diag_shift}). 
+a block diagonal operator whose elements are the additive decomposition of the adjacency matrix associated to graph $\mathcal{G}$, i.e. we obtain $S= \sum\limits_{i=0}^{m-1} |c_i\rangle \langle c_i| \otimes \mathcal{P}_i$. 
 
 To complete the mapping of the evolution operator we can add a Hadamard coin by simply placing a single-qubit Hadamard gate to all the qubits of the coin register to the left of the circuit for the shift operator.
 

@@ -29,10 +29,10 @@ We call each permutation matrix a $shunt$. Next, we associate each shunt with a 
 $S= \sum\limits_{i=0}^{m'-1} |c_i\rangle \langle c_i| \otimes \mathcal{P}_i,$
 or explicitly,
 
-[\mathcal{P}_0  0 \dots 0]
-S=[0 \mathcal{P}_1 \dots 0]
-[\vdots \vdots \ddots \vdots] 
-[0 0 & \dots \mathcal{P}_{m'-1}]
+$[\mathcal{P}_0  0 \dots 0]$
+S=$[0 \mathcal{P}_1 \dots 0]$
+$[\vdots \vdots \ddots \vdots]$
+$[0 0 & \dots \mathcal{P}_{m'-1}]$
 
 Because $S$ is a block diagonal matrix with unitary matrices as entries, $S$ is unitary too, and contains the same information of the connections between nodes than the original adjacency matrix.  
 

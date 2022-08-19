@@ -20,7 +20,7 @@ $P(|v_j\rangle) = \langle \psi(t)|M_j^{\dagger}M_j|\psi(t) \rangle$.
 
 Different methods to construct evolution operators to perform walks on different topologies have been proposed. Particularly, the case in which the shift operator of a quantum walk is a block diagonal matrix, whose block elements are permutation matrices that allows us to easily manipulate $S$.
 
-To construction of the evolution operator, let $\mathcal{G}$ be $m$-regular graph, with adjacency matrix $\mathcal{A}(\mathcal{G})$. Suppose $\mathcal{A}$ can be decomposed as the sum of $m$ permutation matrices, $\mathcal{P}_i \in \mathbb{R}^{n \times n}$, i.e.
+To construction of the evolution operator, let $\mathcal{G}$ be $m'$-regular graph, with adjacency matrix $\mathcal{A}(\mathcal{G})$. Suppose $\mathcal{A}$ can be decomposed as the sum of $m'$ permutation matrices, $\mathcal{P}_i \in \mathbb{R}^{n \times n}$, i.e.
 
 $\mathcal{A} = \mathcal{P}_0 + \mathcal{P}_1 + \dots + \mathcal{P}_{m-1}$
 

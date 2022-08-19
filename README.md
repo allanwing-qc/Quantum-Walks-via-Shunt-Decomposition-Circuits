@@ -29,8 +29,7 @@ We call each permutation matrix a $shunt$. Next, we associate each shunt with a 
 $S= \sum\limits_{i=0}^{m'-1} |c_i\rangle \langle c_i| \otimes \mathcal{P}_i,$
 or explicitly,
 
-$\label{block_diag_shift}
-S=
+$S=
 \begin{pmatrix}
 \mathcal{P}_0 & 0 & \dots & 0 \\
 0 & \mathcal{P}_1 & \dots & 0 \\

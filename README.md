@@ -59,9 +59,7 @@ Given that all matrices $\mathcal{P}_i$ are unitary, there exists a quantum gate
 ![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/block_diagonal_to_circuit_github.png?raw=true)
 
 
-(a). We call the black and the white dots in this figure $controls$. The pattern that they create can be interpreted as binary code, where the black controls represent a 1, the white controls represent a 0 and the less significant bit of the bitstring is the upper-most control in the position register. The subindex $j = 0,1, \dots, 2^m-1$ in $C^{m}_j(\mathcal{P}_i)$ represents the value of the bitstring formed by the control qubits of the gate. 
-
-
+We call the black and the white dots in this figure $controls$. The pattern that they create can be interpreted as binary code, where the black controls represent a 1, the white controls represent a 0 and the less significant bit of the bitstring is the upper-most control in the position register. The subindex $j = 0,1, \dots, 2^m-1$ in $C^{m}_j(\mathcal{P}_i)$ represents the value of the bitstring formed by the control qubits of the gate. 
 
 
 The result of controlling $\mathcal{P}i$ is a $2^{n+m}$ block diagonal matrix, where all the diagonal elements of the matrix are the $2^n \times 2^n$ identity, $I_{2^n}$, except for the $j$th element, which will be the matrix $\mathcal{P}_i$. This is given by the equation

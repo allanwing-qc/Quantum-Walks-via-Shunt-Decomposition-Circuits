@@ -53,9 +53,6 @@ This mapping can be represented in an $n+m$-qubit quantum circuit, where the fir
 To completely map a quantum walk into a quantum circuit, we need to express the evolution operator, $U=S(C \otimes I_P)$, as a set of quantum gates. A general method can be followed for graphs whose adjacency matrices can be decomposed in $2^m$ permutation matrices $\mathcal{P}_i$ of size $2^n$, which will be used as block diagonal elements of $S$.
 
 
-
-
-
 Given that all matrices $\mathcal{P}_i$ are unitary, there exists a quantum gate representation for all of them. Out of the quantum gate $\mathcal{P}_i$, we can create a controlled gate, $C^{m}_j(\mathcal{P}_i)$, which uses all the qubits of the coin register as control qubits, as shown in Fig. \ref{example_multi-control_U} (a). We call the black and the white dots in this figure $controls$. The pattern that they create can be interpreted as binary code, where the black controls represent a 1, the white controls represent a 0 and the less significant bit of the bitstring is the upper-most control in the position register. The subindex $j = 0,1, \dots, 2^m-1$ in $C^{m}_j(\mathcal{P}_i)$ represents the value of the bitstring formed by the control qubits of the gate. 
 
 
@@ -71,7 +68,7 @@ $S = \prod\limits_{j=0}^{2^m-1} C_j^m(\mathcal{P}{i(j)})$,
 
 a block diagonal operator whose elements are the additive decomposition of the adjacency matrix associated to graph $\mathcal{G}$, i.e. we obtain $S= \sum\limits_{i=0}^{m-1} |c_i\rangle \langle c_i| \otimes \mathcal{P}_i$. 
 
-To complete the mapping of the evolution operator we can add a Hadamard coin by simply placing a single-qubit Hadamard gate to all the qubits of the coin register to the left of the circuit for the shift operator.
+To complete the mapping of the evolution operator we can add a Hadamard or a Grover coin to the qubits of the coin register.
 
 
 

@@ -53,7 +53,7 @@ This mapping can be represented in an $n+m$-qubit quantum circuit, where the fir
 To completely map a quantum walk into a quantum circuit, we need to express the evolution operator, $U=S(C \otimes I_P)$, as a set of quantum gates. A general method can be followed for graphs whose adjacency matrices can be decomposed in $2^m$ permutation matrices $\mathcal{P}_i$ of size $2^n$, which will be used as block diagonal elements of $S$.
 
 
-Given that all matrices $\mathcal{P}_i$ are unitary, there exists a quantum gate representation for all of them. Out of the quantum gate $\mathcal{P}_i$, we can create a controlled gate, $C^{m}_j(\mathcal{P}_i)$, which uses all the qubits of the coin register as control qubits, as shown in the following figure.
+Given that all matrices $\mathcal{P}_i$ are unitary, there exists a quantum gate representation for all of them. Out of the quantum gate $\mathcal{P}_i$, we can create a controlled gate, $C^{m}_j(\mathcal{P}_i)$, which uses all the qubits of the coin register as control qubits, as shown in the Fig. 1(a).
 
 
 ![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/block_diagonal_to_circuit_github.png?raw=true)
@@ -68,7 +68,7 @@ $C^{m}j(\mathcal{P}i) = I_{2^{in}} \oplus \mathcal{P}{i}\oplus I_{2^{(2^m-i-1)n}
 
 where $i,j = 0,1, \dots, 2^{m}-1$. Notice that $i$ and $j$ do not have to coincide, although every index $j$ must be related to only one fixed index $i$, which just means that the matrices $\mathcal{P}_i$ can be shuffled in the diagonal indistinguishably. Thus we define $i$ as a function of $j$.
 
-This way, we can find $2^m$ block diagonal gates $C^m_j(\mathcal{P}{i(j)})$ in which the matrices $\mathcal{P}{i(j)}$ are placed in a different position $j$ relative to each other, and the rest of the elements are $I_{2^n}$. When these controlled gates are placed next to each other in a quantum circuit, as in Fig. \ref{example_multi-control_U} (b), the associated matrix representation is given by
+This way, we can find $2^m$ block diagonal gates $C^m_j(\mathcal{P}{i(j)})$ in which the matrices $\mathcal{P}{i(j)}$ are placed in a different position $j$ relative to each other, and the rest of the elements are $I_{2^n}$. When these controlled gates are placed next to each other in a quantum circuit, as in Fig. 2(b), the associated matrix representation is given by
 
 $S = \prod\limits_{j=0}^{2^m-1} C_j^m(\mathcal{P}{i(j)})$,
 

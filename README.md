@@ -53,7 +53,15 @@ This mapping can be represented in an $n+m$-qubit quantum circuit, where the fir
 To completely map a quantum walk into a quantum circuit, we need to express the evolution operator, $U=S(C \otimes I_P)$, as a set of quantum gates. A general method can be followed for graphs whose adjacency matrices can be decomposed in $2^m$ permutation matrices $\mathcal{P}_i$ of size $2^n$, which will be used as block diagonal elements of $S$.
 
 
-Given that all matrices $\mathcal{P}_i$ are unitary, there exists a quantum gate representation for all of them. Out of the quantum gate $\mathcal{P}_i$, we can create a controlled gate, $C^{m}_j(\mathcal{P}_i)$, which uses all the qubits of the coin register as control qubits, as shown in Fig. \ref{example_multi-control_U} (a). We call the black and the white dots in this figure $controls$. The pattern that they create can be interpreted as binary code, where the black controls represent a 1, the white controls represent a 0 and the less significant bit of the bitstring is the upper-most control in the position register. The subindex $j = 0,1, \dots, 2^m-1$ in $C^{m}_j(\mathcal{P}_i)$ represents the value of the bitstring formed by the control qubits of the gate. 
+Given that all matrices $\mathcal{P}_i$ are unitary, there exists a quantum gate representation for all of them. Out of the quantum gate $\mathcal{P}_i$, we can create a controlled gate, $C^{m}_j(\mathcal{P}_i)$, which uses all the qubits of the coin register as control qubits, as shown in the following figure.
+
+
+![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/block_diagonal_to_circuit_github.png?raw=true)
+
+
+(a). We call the black and the white dots in this figure $controls$. The pattern that they create can be interpreted as binary code, where the black controls represent a 1, the white controls represent a 0 and the less significant bit of the bitstring is the upper-most control in the position register. The subindex $j = 0,1, \dots, 2^m-1$ in $C^{m}_j(\mathcal{P}_i)$ represents the value of the bitstring formed by the control qubits of the gate. 
+
+
 
 
 The result of controlling $\mathcal{P}i$ is a $2^{n+m}$ block diagonal matrix, where all the diagonal elements of the matrix are the $2^n \times 2^n$ identity, $I_{2^n}$, except for the $j$th element, which will be the matrix $\mathcal{P}_i$. This is given by the equation

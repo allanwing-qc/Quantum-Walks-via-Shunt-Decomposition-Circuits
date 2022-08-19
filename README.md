@@ -35,7 +35,7 @@ S=$[0 \mathcal{P}_1 \dots 0]$
 
 $[\vdots \vdots \ddots \vdots]$
 
-$[0 0 & \dots \mathcal{P}_{m'-1}]$
+$[0 0 \dots \mathcal{P}_{m'-1}]$
 
 Because $S$ is a block diagonal matrix with unitary matrices as entries, $S$ is unitary too, and contains the same information of the connections between nodes than the original adjacency matrix.  
 

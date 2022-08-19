@@ -8,6 +8,8 @@ where $|v_j\rangle \in \mathcal{H}_P$ is a quantum state associated to vertex $v
 
 $U=S(C\otimes I_{n})$.
 
+For simplicity, consider that $|v_j\rangle$ and $|c_k\rangle$ are represented by the canonical basis in $\mathbb{C}^n$ and $\mathbb{C}^m$, respectively.
+
 One step of the walker consists in the application of $U$ to $|\psi(t)\rangle$, the walker standing on vertex $v_j \in V$ first gets in a superposition of states by the action of $C\otimes I_{n}$, and then moves toward all the adjacent vertices at the same time, by the action of $S$. The state of the system after $t$ steps is given by $|\psi(t)\rangle = U^t |\psi_0 \rangle$, where $|\psi_0 \rangle$ is the initial state of the walker. 
 
 Finally, we define the measurement operator of the system as 
@@ -28,7 +30,10 @@ We call each permutation matrix a $shunt$. Next, we associate each shunt with a 
 
 $S= \sum\limits_{i=0}^{m-1} |c_i\rangle \langle c_i| \otimes \mathcal{P}_i$,
 
-Because $S$ is a block diagonal matrix with unitary matrices as entries, $S$ is unitary too, and contains the same information of the connections between nodes than the original adjacency matrix.  
+Because $S$ is a block diagonal matrix with unitary matrices as entries, $S$ is unitary too, and contains the same information of the connections between nodes than the original adjacency matrix.
+
+
+
 
 
 

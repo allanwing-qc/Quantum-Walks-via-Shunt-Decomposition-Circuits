@@ -58,13 +58,13 @@ To completely map a quantum walk into a quantum circuit, we need to express the 
 
 Given that all matrices $\mathcal{P}_i$ are unitary, there exists a quantum gate representation for all of them. Out of the quantum gate $\mathcal{P}_i$, we can create a controlled gate, $C^{m}_j(\mathcal{P}_i)$, which uses all the qubits of the coin register as control qubits, as shown in Fig. \ref{example_multi-control_U} (a). We call the black and the white dots in this figure $controls$. The pattern that they create can be interpreted as binary code, where the black controls represent a 1, the white controls represent a 0 and the less significant bit of the bitstring is the upper-most control in the position register. The subindex $j = 0,1, \dots, 2^m-1$ in $C^{m}_j(\mathcal{P}_i)$ represents the value of the bitstring formed by the control qubits of the gate. The result of controlling $\mathcal{P}_i$ is a $2^{n+m}$ block diagonal matrix, where all the diagonal elements of the matrix are the $2^n \times 2^n$ identity, $I_{2^n}$, except for the $j$th element, which will be the matrix $\mathcal{P}_i$. This is given by the equation
 
-&C^{m}_j(\mathcal{P}_i) = I_{2^{in}} \oplus \mathcal{P}_{i}\oplus I_{2^{(2^m-i-1)n}},$
+&C^{m}_j(\mathcal{P}_i) = I_{2^{in}} \oplus \mathcal{P}_{i}\oplus I_{2^{(2^m-i-1)n}}$,
 
 where $i,j = 0,1, \dots, 2^{m}-1$. Notice that $i$ and $j$ do not have to coincide, although every index $j$ must be related to only one fixed index $i$, which just means that the matrices $\mathcal{P}_i$ can be shuffled in the diagonal indistinguishably. Thus we define $i$ as a function of $j$.
 
 This way, we can find $2^m$ block diagonal gates $C^m_j(\mathcal{P}_{i(j)})$ in which the matrices $\mathcal{P}_{i(j)}$ are placed in a different position $j$ relative to each other, and the rest of the elements are $I_{2^n}$. When these controlled gates are placed next to each other in a quantum circuit, as in Fig. \ref{example_multi-control_U} (b), the associated matrix representation is given by
 
-$S = \prod\limits_{j=0}^{2^m-1} C_j^m(\mathcal{P}_{i(j)}),$
+$S = \prod\limits_{j=0}^{2^m-1} C_j^m(\mathcal{P}_{i(j)})$,
 
 a block diagonal operator whose elements are the additive decomposition of the adjacency matrix associated to graph $\mathcal{G}$, i.e. we obtain eq. (\ref{block_diag_shift}). 
 

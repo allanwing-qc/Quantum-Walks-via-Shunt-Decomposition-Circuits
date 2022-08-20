@@ -56,7 +56,7 @@ To completely map a quantum walk into a quantum circuit, we need to express the 
 Given that all matrices $\mathcal{P}_i$ are unitary, there exists a quantum gate representation for all of them. Out of the quantum gate $\mathcal{P}_i$, we can create a controlled gate, $C^{m}_j(\mathcal{P}_i)$, which uses all the qubits of the coin register as control qubits, as shown in the Fig. 1(a).
 
 
-![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/block_diagonal_to_circuit_github.png?raw=true)
+![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/block_diagonal_to_circuit_git.png?raw=true)
 
 
 We call the black and the white dots in this figure $controls$. The pattern that they create can be interpreted as binary code, where the black controls represent a 1, the white controls represent a 0 and the less significant bit of the bitstring is the upper-most control in the position register. The subindex $j = 0,1, \dots, 2^m-1$ in $C^{m}_j(\mathcal{P}_i)$ represents the value of the bitstring formed by the control qubits of the gate. 
@@ -79,13 +79,13 @@ To complete the mapping of the evolution operator we can add a Hadamard or a Gro
 Based on this method, we present the circuit form of the evolution operators to perform quantum walks on the 5-cycle, 7-line, the 3-cube with self-loops, the 4-vertex complete graph with self-loops, as shown in Figures 2,3,4 and 5.
 
 
-![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/5-cycle_github.png?raw=true)
+![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/5-cycle_git.png?raw=true)
 
 
-![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/3-cube_github.png?raw=true)
+![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/3-cube_git.png?raw=true)
 
 
-![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/7-line_github.png?raw=true)
+![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/7-line_git.png?raw=true)
 
 
-![github-small](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/k4_github.png?raw=true)
+![github-small](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/k4_git.png?raw=true)

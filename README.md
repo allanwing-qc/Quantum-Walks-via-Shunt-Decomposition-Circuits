@@ -88,4 +88,3 @@ Based on this method, we present the circuit form of the evolution operators to 
 ![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/7-line_github.png?raw=true)
 
 
-![github-small](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/k4_github.png?raw=true )

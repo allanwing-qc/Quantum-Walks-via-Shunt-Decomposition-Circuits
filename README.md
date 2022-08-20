@@ -78,7 +78,7 @@ To complete the mapping of the evolution operator we can add a Hadamard or a Gro
 
 Based on this method, we present the circuit form of the evolution operators to perform quantum walks on the 5-cycle, 7-line, the 3-cube with self-loops, the 4-vertex complete graph with self-loops, as shown in Figures 2,3,4 and 5.
 
-All the circuits were run in https://quantum-computing.ibm.com/ up to 3 steps using the quatum using the quantum composer. The quanutm computers we used for this task were ibmq_quito, ibmq_lima, ibmq_manila and ibmq_bogota. The original and transpiled circuits for each of the steps and each of the quantum computer can be found in the folders above.
+All the circuits were run in https://quantum-computing.ibm.com/ up to 3 steps using the quatum using the quantum composer. The quanutm computers we used for this task were ibmq_quito, ibmq_lima, ibmq_manila and ibmq_bogota. Quskit codes with the original and transpiled circuits for each of the steps and each of the quantum computer can be found in the folders above.
 
 
 ![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/5-cycle_git.png?raw=true)

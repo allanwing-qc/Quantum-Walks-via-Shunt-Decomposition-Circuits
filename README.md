@@ -76,7 +76,7 @@ a block diagonal operator whose elements are the additive decomposition of the a
 
 To complete the mapping of the evolution operator we can add a Hadamard or a Grover coin to the qubits of the coin register.
 
-Based on this description, we obtained the circuit form of the evolution operator of to perform quantum walks on the 5-cycle, 7-line, the 3-cube with self-loops, the 4-vertex complete graph with self-loops, as shown in Figures 2,3,4 and 5.
+Based on this method, we present the circuit form of the evolution operators to perform quantum walks on the 5-cycle, 7-line, the 3-cube with self-loops, the 4-vertex complete graph with self-loops, as shown in Figures 2,3,4 and 5.
 
 
 ![alt text](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/5-cycle_github.png?raw=true)

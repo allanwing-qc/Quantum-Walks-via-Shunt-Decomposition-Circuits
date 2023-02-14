@@ -64,7 +64,7 @@ We call the black and the white dots in this figure $controls$. The pattern that
 
 The result of controlling $\mathcal{P}i$ is a $2^{n+m}$ block diagonal matrix, where all the diagonal elements of the matrix are the $2^n \times 2^n$ identity, $I_{2^n}$, except for the $j$th element, which will be the matrix $\mathcal{P}_i$. This is given by the equation
 
-$C^{m}_j(\mathcal{P}_i) =  \oplus \mathcal{P}_{i}\oplus I_{2^{(2^m-i-1)n}}$,$ 
+$C^{m}_j(\mathcal{P}_i) = $ $I_{2^{in}} \oplus \mathcal{P}_{i}\oplus I_{2^{(2^m-i-1)n}}$, 
 
 where $i,j = 0,1, \dots, 2^{m}-1$. Notice that $i$ and $j$ do not have to coincide, although every index $j$ must be related to only one fixed index $i$, which just means that the matrices $\mathcal{P}_i$ can be shuffled in the diagonal indistinguishably. Thus we define $i$ as a function of $j$.
 

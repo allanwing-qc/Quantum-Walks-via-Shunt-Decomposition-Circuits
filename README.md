@@ -90,7 +90,7 @@ All the circuits were run in https://quantum-computing.ibm.com/ up to 3 steps us
 ![github-small](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/3-cube_git.png?raw=true)
 
 
-<img src="https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/k4_git.png?raw=true" width="2100" height="400">
+<img src="https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/k4_git.png?raw=true" width="1800" height="400">
 
 
 ![github-small](https://github.com/allanwing-qc/Quantum-Walks-via-Shunt-Decomposition-Circuits/blob/main/k4_git.png?raw=true)

@@ -69,7 +69,7 @@ $C^{m}_j(\mathcal{P}_i) = I \_ {2^{in}} \oplus \mathcal{P}_i \oplus I \_ {2^{(2^
 
 where $i,j = 0,1, \dots, 2^{m}-1$. Notice that $i$ and $j$ do not have to coincide, although every index $j$ must be related to only one fixed index $i$, which just means that the matrices $\mathcal{P}_i$ can be shuffled in the diagonal indistinguishably. Thus we define $i$ as a function of $j$.
 
-This way, we can find $2^m$ block diagonal gates $C^m_j(\mathcal{P}_{i(j)})$ in which the matrices $\mathcal{P}{i(j)}$ are placed in a different position $j$ relative to each other, and the rest of the elements are $I_{2^n}$. When these controlled gates are placed next to each other in a quantum circuit, as in Fig. 2(b), the associated matrix representation is given by
+This way, we can find $2^m$ block diagonal gates $C^m_j(\mathcal{P}_ {i(j)})$ in which the matrices $\mathcal{P}{i(j)}$ are placed in a different position $j$ relative to each other, and the rest of the elements are $I_{2^n}$. When these controlled gates are placed next to each other in a quantum circuit, as in Fig. 2(b), the associated matrix representation is given by
 
 $S = \prod\limits_{j=0}^{2^m-1} C_j^m(\mathcal{P}_{i(j)})$,
 
